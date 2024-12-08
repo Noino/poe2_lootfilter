@@ -1,0 +1,204 @@
+## Gold
+
+Show
+	StackSize >= 500
+	BaseType == "Gold"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect Orange Temp
+	MinimapIcon 1 White Cross
+
+Show
+	StackSize >= 150
+	BaseType == "Gold"
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	MinimapIcon 2 Grey Cross
+
+Show
+	StackSize >= 50
+	BaseType == "Gold"
+	AreaLevel <= 68
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 20 20 0 255
+	MinimapIcon 2 Grey Cross
+
+Show
+    BaseType == "Gold"
+	SetFontSize 35
+	SetTextColor 180 180 180 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 20 20 0 180
+
+## Runes & Charms
+
+Show
+    Rarity Normal Magic
+	Class == "Charms"
+	SetFontSize 35
+	SetTextColor 100 100 255 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+
+Show
+	BaseType "Rune"
+	SetFontSize 35
+	SetTextColor 235 0 0 255
+	SetBorderColor 255 0 0 255
+	PlayAlertSound 3 300
+	PlayEffect Red
+	MinimapIcon 1 Red Circle
+
+# Skill Gems
+
+Show
+	BaseType == "Uncut Skill Gem" "Uncut Support Gem"
+	SetFontSize 45
+	SetTextColor 0 200 0 255
+	SetBorderColor 255 0 0
+	SetBackgroundColor 0 0 0
+	PlayEffect Green
+	MinimapIcon 0 Green Star
+
+# Currency
+
+Show
+    BaseType == "Scroll of Wisdom"
+	Class == "Stackable Currency"
+	SetTextColor 32 255 0
+	SetBorderColor 100 50 30 255
+	SetFontSize 30
+
+Show
+	Class == "Stackable Currency"
+	BaseType == "Orb of Transmutation" "Orb of Augmentation"
+	SetFontSize 35
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 210 178 135 255
+
+Show
+	Class == "Stackable Currency"
+	BaseType == "Orb of Alchemy" "Orb of Chance"
+	SetFontSize 35
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 213 159 0 255
+	PlayAlertSound 2 300
+	PlayEffect White
+	MinimapIcon 2 White Circle
+
+Show
+	Class == "Stackable Currency"
+	BaseType == "Chaos Orb" "Regal Orb"
+    SetFontSize 40
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 249 150 25 255
+	PlayAlertSound 2 300
+	PlayEffect White
+	MinimapIcon 2 White Circle
+
+Show
+	Class == "Stackable Currency"
+    BaseType == "Orb of Annulment" "Exalted Orb" "Divine Orb" "Vaal Orb"
+	SetFontSize 40
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show
+	Class == "Stackable Currency"
+	BaseType == "Blacksmith's Whetstone" "Arcanist's Etcher" "Armourer's Scrap" "Artificer's Orb"
+	SetFontSize 35
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 210 178 135 255
+	PlayAlertSound 2 300
+	PlayEffect Grey
+	MinimapIcon 2 Grey Circle
+
+Show
+	Class == "Stackable Currency"
+    BaseType == "Mirror of Kalandra"
+	SetFontSize 45
+	SetTextColor 255 0 0 255
+	SetBorderColor 255 0 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+# Essences
+
+Show
+	Class == "Stackable Currency"
+	BaseType "Essence of "
+	SetFontSize 40
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 240 90 35 255
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Circle
+
+# Quest Items
+
+Show
+    Class == "Quest Items"
+    SetFontSize 37
+
+# Basic rarity
+
+Show
+	Rarity Unique
+	SetFontSize 37
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 175 96 37 255
+	PlayAlertSound 1 300
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+
+Show
+	Rarity Rare
+	SetFontSize 33
+	SetBackgroundColor 0 80 30 255
+	SetBorderColor 0 255 1
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Rarity Magic
+	SetFontSize 30
+	SetTextColor 75 155 255 255
+	SetBorderColor 0 75 250 255
+	SetBackgroundColor 0 20 40 255
+
+Show
+	Rarity Normal
+	SetFontSize 26
+	SetTextColor 255 255 255
+
+# Just in case rule for anything we missed
+
+Show
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+    SetBackgroundColor 235 75 235 255
+	PlayAlertSound 5 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink Triangle
+
+
