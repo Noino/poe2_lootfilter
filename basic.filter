@@ -3,7 +3,7 @@
 Show
 	StackSize >= 500
 	BaseType == "Gold"
-	SetFontSize 45
+	SetFontSize 34
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 20 20 0 255
@@ -13,7 +13,7 @@ Show
 Show
 	StackSize >= 150
 	BaseType == "Gold"
-	SetFontSize 40
+	SetFontSize 31
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 20 20 0 255
@@ -22,8 +22,7 @@ Show
 Show
 	StackSize >= 50
 	BaseType == "Gold"
-	AreaLevel <= 68
-	SetFontSize 40
+	SetFontSize 28
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 20 20 0 255
@@ -31,7 +30,7 @@ Show
 
 Show
     BaseType == "Gold"
-	SetFontSize 35
+	SetFontSize 25
 	SetTextColor 180 180 180 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 20 20 0 180
